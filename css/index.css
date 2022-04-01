@@ -2,6 +2,11 @@
     /* box-shadow: 1px,1px,2px,1px, rgba(0, 0, 0, 0.7) inset; */
     word-wrap: break-word;
 }
+body{
+    background:white;
+    color:black;
+}
+
 nav a.navbar-brand{
     color: black;
     text-transform: uppercase;
@@ -19,13 +24,17 @@ header{
 }
 .header{
 
-    padding: 7rem 4rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
     z-index:-1;
-    background:linear-gradient(rgba(255, 0, 0, 0.6),rgba(0, 0, 128, 0.6))
+    background:rgba(0, 0, 128, 0.778)
 
 }
+.card,.card-body{
+    border-radius:none;
+}
 h1#front-text{
-    font-size: 3.7rem;
+    font-size: 3.4rem;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
@@ -33,7 +42,25 @@ h1#front-text{
 
     /* text-shadow:-2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; */
 }
-
+span.text{
+    font-size: 3.9rem;
+    color: rgb(207, 24, 24);
+}
+.button{
+    padding: .7rem;
+    font-size: 1.2rem;
+    border-radius: none;
+    border: none;
+}
+p.text{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+p.about-text{
+    text-align: justify;
+    word-spacing: .4rem;
+    font-size: 1.6rem;
+}
 @media screen and (max-width: 480px){
     h1#front-text{
         font-size: 3rem;
@@ -70,5 +97,25 @@ h4.card-title{
     font-weight: bold;
 }
 .feeds{
-    background: rgb(0, 0, 128);
+   background-color: rgba(240, 240, 242, 0.986);
+   background-blend-mode: lighten;
+}
+main.footer{
+    background-image: url('../images/image3.JPG');
+        
+    width: 100%;
+    
+}
+.footing{
+}
+.feed-box{
+    background-color: white;
+    color: rgb(207, 24, 24);
+}
+.feed-box2{
+    background-color: white;
+    
+}
+.text-red{
+    color: rgb(207, 24, 24);
 }
